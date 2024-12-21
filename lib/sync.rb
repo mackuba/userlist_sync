@@ -52,6 +52,7 @@ class Sync
 
   def log(s)
     puts "#{Time.now}: #{s}"
+    $stdout.flush
   end
 
 
