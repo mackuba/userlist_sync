@@ -1,6 +1,6 @@
 # Userlist Sync
 
-A small tool written in Ruby for adding all users with handles matching some kind of pattern (e.g. all *.gov) to a user list on Bluesky.
+A small tool written in Ruby for adding all users with handles matching some kind of pattern (e.g. all [*.gov](https://bsky.app/profile/did:plc:oio4hkxaop4ao4wz2pp3f4cr/lists/3lcq5ovmsjn2s)) to a user list on Bluesky.
 
 
 ## How to use
