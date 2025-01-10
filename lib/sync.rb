@@ -30,6 +30,10 @@ class Sync
       cursor: @data['cursor']
     })
 
+    @jetstream.check_heartbeat = true
+    @jetstream.heartbeat_timeout = 120
+    @jetstream.heartbeat_interval = 20
+
     @jetstream.on_connecting { |u| log "Connecting to #{u}..." }
     @jetstream.on_connect { log "Connected ✓" }
     @jetstream.on_disconnect { log "Disconnected." }
