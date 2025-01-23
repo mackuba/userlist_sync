@@ -3,7 +3,8 @@ require 'fileutils'
 require 'json'
 require 'minisky'
 require 'set'
-require 'skyfall'
+require 'skyfall/jetstream'
+require 'skyfall/version'
 require 'yaml'
 
 class Sync
